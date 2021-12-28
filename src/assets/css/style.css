@@ -1,0 +1,39 @@
+.scroll-vertical {
+  float: left;
+  overflow: scroll;
+  overflow-y: auto;
+}
+
+.scroll-vertical::-webkit-scrollbar,
+.scroll-vertical::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+.h-80 {
+  height: 80vh;
+}
+
+.h-70 {
+  height: 70vh;
+}
+
+.h-60 {
+  height: 60vh;
+}
+
+.h-50 {
+  height: 50vh;
+}
+
+.h-40 {
+  height: 40vh;
+}
